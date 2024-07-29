@@ -1,0 +1,145 @@
+/* HEADER */
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .container-pages li {
+        padding: 18px 0;
+    }
+    .container-address {
+        flex-direction: column;
+        gap: 12px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+    }
+    .head-logo {
+        margin-right: 120px;
+    }
+    .menu-button {
+        display: none;
+    }
+
+/* SECTION ONE */
+
+    .section-one {
+        padding: 72px 0;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+    .one-maintitle {
+        font-size: 36px;
+        width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    .containerone {
+        gap: 36px;
+    }
+
+/* SECTION TWO */
+
+    .icon-two {
+        display: none;
+    }
+    .two-list {
+        justify-content: center;
+        width: 356px;
+    }
+    .container-future {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 24px;
+        column-gap: 72px;
+    }
+    .htree {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+    }
+
+/* SECTION THREE */
+
+    .container-team {
+        padding: 0 93px;
+        flex-wrap: wrap;
+        row-gap: 64px;
+    }
+    .three-list {
+        width: 264px !important;
+    }
+
+/* SECTION FOUR */
+
+    .sectionfour-ulist {
+        flex-direction: flex;
+    }
+    .four-div,
+    .four-list {
+        width: 356px;
+        flex-wrap: wrap;
+    }
+
+/* FOOTER */
+
+    .footer-logo-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        width: 288px;
+        padding: 0 auto;
+    }
+    .container-footer {
+        gap: 72px !important;
+        flex-direction: column;
+        padding: 0 96px;
+    }
+    .footer-logo-social {
+        gap: 24px;
+    }
+    .footer-paragraph,
+    .social-paragraph{
+        width: 288px;
+    }
+    .subs-form-input {
+        width: 288px;
+        opacity: 30%;
+    }
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-subscribe {
+        padding-left: 0;
+    }
+    .subs-form-button {
+        width: 165px;
+    }
+    .subscribe-form {
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+    }
+
+/* MODAL */
+
+    .modal-content {
+        width: 408px;
+    }
+    .modal-form-input {
+        width: 360px;
+    }
+    .modal-content {
+        padding: 72px 24px 24px;
+    }
+}

@@ -2,7 +2,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .container {
-        max-width: 767px;
+        max-width: 100%;
     }
     .container-pages {
         display: none;
@@ -146,5 +146,14 @@
     }
     .modal-content {
         padding: 72px 16px 24px 16px;
+    }
+
+/* MENU */
+
+    .menu-content {
+        width: 100%;
+    }
+    .menu-content-inside {
+        margin: 0 auto;
     }
 }
